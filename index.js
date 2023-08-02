@@ -20,7 +20,7 @@ polylines.forEach(function(item, index){
     //polypath += ' Z';     if returning to first point
 
     // change <polyline> into <path> with d=polypath
-    item.outerHTML=`<path ${stroke} stroke-width=\"1\" fill=\"none\" d=\"${polypath}\" stroke-dasharray=\"2081.138671875\" stroke-dashoffset=\"2081.138671875\"><animate attributeName=\"stroke-dashoffset\" begin=\"0s\" dur=\"20s\" to=\"0\" fill=\"freeze\"></animate></path>`;    
+    item.outerHTML=`<path ${stroke} stroke-width=\"1\" fill=\"none\" d=\"${polypath}\" stroke-dasharray=\"2081.138671875\" stroke-dashoffset=\"2081.138671875\"><animate attributeName=\"stroke-dashoffset\" begin=\"0s\" dur=\"15s\" to=\"0\" fill=\"freeze\"></animate></path>`;    
 });
 
 
