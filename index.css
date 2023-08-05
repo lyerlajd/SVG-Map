@@ -1,5 +1,13 @@
 * {
-    margin: 0;
+    margin: 10em;
     border: 0;
     padding: 0;
+}
+
+.body 
+{
+    background-image: url("../Screenshot\ 2023-08-02\ 152655.png");
+    background-repeat: no-repeat;
+    background-size: 715px;
+    background-position: 68px 130px;
 }

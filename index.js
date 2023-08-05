@@ -32,7 +32,11 @@ paths.forEach(function(item, index){
     item.setAttribute("stroke-dasharray", pathLength);
     item.setAttribute("stroke-dashoffset", pathLength);
 
-    item.innerHTML = "<animate attributeName='stroke-dashoffset' begin='0s' dur='10s' to='0' fill=freeze />"
+    item.innerHTML = "<animate attributeName='stroke-dashoffset' begin='10s' dur='10s' to='0' fill=freeze />"
 
     console.log(index, pathLength);
 });
+
+let svg = document.querySelector("svg");
+
+svg.addEventListener('click', (event)=>{console.log(`${event.clientX - 641} ${event.clientY - 250}`);})
