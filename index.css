@@ -1,13 +1,10 @@
+:root
+{
+    --pastel-red: rgb(234, 141, 141);
+    --light-gray: rgb(180, 180, 180);
+}
 * {
     margin: 0;
     border: 0;
     padding: 0;
-}
-
-.body 
-{
-    background-image: url("../Screenshot\ 2023-08-02\ 152655.png");
-    background-repeat: no-repeat;
-    background-size: 715px;
-    background-position: 68px 130px;
 }
